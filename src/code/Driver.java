@@ -7,7 +7,7 @@ public class Driver {
     
     public static void main(String[] args) {
 
-      try(Scanner scn = new Scanner(new FileReader("src/file/words.txt")))
+      try(Scanner scn = new Scanner(new FileReader("src/file/Text File.txt")))
       {
         while(scn.hasNextLine()){
           String string1=scn.nextLine();
